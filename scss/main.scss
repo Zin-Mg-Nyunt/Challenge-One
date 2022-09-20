@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;500;700&display=swap');
+$font-family-sans-serif : 'Epilogue', sans-serif;
+
+$theme-colors: (
+  "primary" : hsl(0, 0%, 8%),
+  "icon" : rgb(1, 1, 156),
+  "info" :  hsl(190, 90%, 50%),
+  "warning" : hsl(45, 100%, 51%),
+  "purple" : rgb(163, 0, 163),
+);
+
+$navbar-nav-link-padding-x : 1.5rem;
+$navbar-padding-y : 1.5rem;
+$navbar-light-hover-color:  hsl(0, 0%, 8%);
+
+$btn-padding-x : 1.3rem;
+$btn-border-radius : .8rem;
+$btn-border-width : 2px;
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../node_modules/@fortawesome/fontawesome-free/css/all.min.css";

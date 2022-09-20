@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon-32x32.png">
+    <title>Intro section with dropdown navigation</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-white position-fixed w-100">
+        <div class="container-fluid container-lg">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.svg" height="35px" alt="">
+          </a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                      <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Features <i class="fa-solid fa-angle-down"></i>
+                      </a>
+                      <ul class="dropdown-menu shadow border-0">
+                        <li class="mx-2 pb-2"><a class="dropdown-item" href="#"><i class="fa-solid fa-clipboard-list fa-fw me-3 text-icon fs-5"></i>Todo List</a></li>
+                        <li class="mx-2 pb-2"><a class="dropdown-item" href="#"><i class="fa-solid fa-calendar-day fa-fw me-3 text-info fs-5"></i>Calendar</a></li>
+                        <li class="mx-2 pb-2"><a class="dropdown-item" href="#"><i class="fa-solid fa-bell fa-fw me-3 text-warning fs-5"></i>Reminders</a></li>
+                        <li class="mx-2 pb-2"><a class="dropdown-item" href="#"><i class="fa-solid fa-clock fa-fw me-3 text-purple fs-5"></i>Planning</a></li>
+                      </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Company <i class="fa-solid fa-angle-down"></i>
+                  </a>
+                  <ul class="dropdown-menu shadow border-0">
+                    <li class="pb-2"><a class="dropdown-item" href="#">History</a></li>
+                    <li class="pb-2"><a class="dropdown-item" href="#">Our Team</a></li>
+                    <li class="pb-2"><a class="dropdown-item" href="#">Blog</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Careers</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+              </ul>
+              <div class=" d-flex flex-column flex-lg-row">
+                <a href="" class="btn btn-outline-primary me-3 border-0">Login</a>
+                <a href="" class="btn btn-outline-primary">Register</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </nav>
+
+
+    <div class="container text-center text-lg-start">
+      <div class="row justify-content-center align-items-center min-vh-100 flex-column-reverse flex-xl-row">
+        <div class="col-lg-6 col-xl-5 mt-5 mt-xl-0">
+          <h1 class="display-1 fw-bold">
+            Make remote work
+          </h1>
+          <p class="text-black-50 my-5 w-75 mx-auto mx-lg-0">
+            Get your team in sync, no matter your location. Streamline processes, 
+            create team rituals, and watch productivity soar.
+          </p>
+          <a href="#" class="btn btn-primary mb-5">
+            Learn more
+          </a>
+          <div class="row mt-5">
+            <div class="col">
+              <img src="images/client-databiz.svg" alt="" height="20px">
+            </div>
+            <div class="col">
+              <img src="images/client-audiophile.svg" alt="" height="20px">
+            </div>
+            <div class="col">
+              <img src="images/client-meet.svg" alt="" height="20px">
+            </div>
+            <div class="col">
+              <img src="images/client-maker.svg" alt="" height="20px">
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-1 d-none d-xl-block"></div>
+        <div class="col-lg-6 col-xl-5">
+          <img src="images/image-hero-desktop.png" class="w-100" alt="">
+        </div>
+      </div>
+    </div>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
